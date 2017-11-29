@@ -1,7 +1,7 @@
 all: README.md
 
 README.md:
-	echo "#Guessing game#" > README.md
+	echo "# Guessing game" > README.md
 	echo -n "Date: " >> README.md
 	date >> README.md
 	echo -n "Number of lines of code: " >> README.md
